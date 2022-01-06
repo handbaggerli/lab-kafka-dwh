@@ -1,5 +1,6 @@
 https://www.youtube.com/watch?v=ncTosfaZ5cQ
 https://github.com/marcel-dempers/docker-development-youtue-series
 
+https://docs.confluent.io/clients-confluent-kafka-python/current/overview.html
 
-docker run --rm -p 9000:9000 -e KAFKA_BROKERCONNECT="10.5.0.1:9092" -e JVM_OPTS="-Xms32M -Xmx256M" --network myapp -e SERVER_SERVLET_CONTEXTPATH="/" obsidiandynamics/kafdrop:latest
+https://avro.apache.org/docs/current/gettingstartedpython.html#Serializing+and+deserializing+without+code+generation

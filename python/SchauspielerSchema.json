@@ -1,0 +1,144 @@
+{
+  "type": "record",
+  "name": "Haarfarbe",
+  "fields": [],
+  "doc": "Haarfarbe()",
+  "namespace": "Haarfarbe.v1",
+  "aliases": [
+    "haarfarbe-v1",
+    "haarfarbe"
+  ]
+}
+{
+  "type": "record",
+  "name": "Frisur",
+  "fields": [],
+  "doc": "Frisur()",
+  "namespace": "Frisur.v1",
+  "aliases": [
+    "frisur-v1",
+    "frisur"
+  ]
+}
+{
+  "type": "record",
+  "name": "Schauspieler",
+  "fields": [
+    {
+      "name": "schaupielerId",
+      "type": {
+        "type": "string",
+        "logicalType": "uuid"
+      }
+    },
+    {
+      "name": "recordCreated",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      }
+    },
+    {
+      "name": "vorName",
+      "type": "string"
+    },
+    {
+      "name": "nachName",
+      "type": "string"
+    },
+    {
+      "name": "isTaetowiert",
+      "type": "boolean"
+    },
+    {
+      "name": "gewohnHeiten",
+      "type": {
+        "type": "array",
+        "items": "string",
+        "name": "gewohnHeiten"
+      }
+    },
+    {
+      "name": "taschenGeld",
+      "type": "double"
+    },
+    {
+      "name": "kopfFrisur",
+      "type": {
+        "type": "record",
+        "name": "Frisur",
+        "fields": [],
+        "doc": "Frisur()",
+        "namespace": "Frisur.v1",
+        "aliases": [
+          "frisur-v1",
+          "frisur"
+        ]
+      }
+    },
+    {
+      "name": "geschlecht",
+      "type": {
+        "type": "enum",
+        "name": "geschlecht",
+        "symbols": [
+          "Weiblich",
+          "Maennlich",
+          "Anderes"
+        ]
+      }
+    },
+    {
+      "name": "kopfHaarFarben",
+      "type": {
+        "type": "array",
+        "items": {
+          "type": "record",
+          "name": "Haarfarbe",
+          "fields": [],
+          "doc": "Haarfarbe()",
+          "namespace": "Haarfarbe.v1",
+          "aliases": [
+            "haarfarbe-v1",
+            "haarfarbe"
+          ]
+        },
+        "name": "kopfHaarFarben"
+      },
+      "default": []
+    },
+    {
+      "name": "schamHaarFarbe",
+      "type": [
+        "null",
+        "Haarfarbe.v1.Haarfarbe"
+      ],
+      "default": null
+    },
+    {
+      "name": "achselHaarFarbe",
+      "type": [
+        "null",
+        "Haarfarbe.v1.Haarfarbe"
+      ],
+      "default": null
+    },
+    {
+      "name": "geburtsDatum",
+      "type": [
+        "null",
+        {
+          "type": "int",
+          "logicalType": "date"
+        }
+      ],
+      "default": null
+    }
+  ],
+  "doc": "Definition eines Schauspielers",
+  "namespace": "Schauspieler.v1",
+  "aliases": [
+    "schauspieler-v1",
+    "schauspieler"
+  ]
+}

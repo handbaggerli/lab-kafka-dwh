@@ -1,0 +1,89 @@
+{
+  "filmId": "38b0d952-2cef-4ff9-abad-a4445ada89d1",
+  "recordCreated": 1641375214291,
+  "filmName": "Spritzen ist Geil",
+  "ablagePfad": "c:/filme/spritzenistgeil.mkv",
+  "laenge": 9262000,
+  "besetzung": [
+    {
+      "schaupielerId": "11aea417-87b5-41ca-87ac-b69a1c137cbd",
+      "recordCreated": 1641375209270,
+      "vorName": "Kusi",
+      "nachName": "Spritzi",
+      "isTaetowiert": false,
+      "gewohnHeiten": [
+        "bumsen",
+        "blasen",
+        "anal"
+      ],
+      "taschenGeld": 140056.79,
+      "kopfFrisur": "lang",
+      "geschlecht": "Maennlich",
+      "kopfHaarFarben": [
+        1
+      ],
+      "schamHaarFarbe": {
+        "long": 3
+      },
+      "achselHaarFarbe": {
+        "long": 1
+      },
+      "geburtsDatum": {
+        "int": 1481
+      }
+    },
+    {
+      "schaupielerId": "a2003fba-c522-4575-8c11-27cd1d598251",
+      "recordCreated": 1641375202740,
+      "vorName": "Vreni",
+      "nachName": "Stoeni",
+      "isTaetowiert": true,
+      "gewohnHeiten": [
+        "bumsen",
+        "blasen",
+        "anal"
+      ],
+      "taschenGeld": 123456.789,
+      "kopfFrisur": "irok",
+      "geschlecht": "Weiblich",
+      "kopfHaarFarben": [
+        0,
+        3
+      ],
+      "schamHaarFarbe": {
+        "long": 2
+      },
+      "achselHaarFarbe": {
+        "long": 2
+      },
+      "geburtsDatum": {
+        "int": 11009
+      }
+    },
+    {
+      "schaupielerId": "e837b9aa-798f-4676-a98f-78759b8cc87a",
+      "recordCreated": 1641375205828,
+      "vorName": "Moni",
+      "nachName": "Bravi",
+      "isTaetowiert": false,
+      "gewohnHeiten": [
+        "bumsen",
+        "blasen",
+        "anal"
+      ],
+      "taschenGeld": 1456.79,
+      "kopfFrisur": "lang",
+      "geschlecht": "Weiblich",
+      "kopfHaarFarben": [
+        2
+      ],
+      "schamHaarFarbe": {
+        "long": 2
+      },
+      "achselHaarFarbe": null,
+      "geburtsDatum": {
+        "int": 10939
+      }
+    }
+  ]
+}

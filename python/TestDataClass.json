@@ -1,0 +1,56 @@
+{
+  "type": "record",
+  "name": "User",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "age",
+      "type": "long"
+    },
+    {
+      "name": "birthdate",
+      "type": {
+        "type": "int",
+        "logicalType": "date"
+      }
+    },
+    {
+      "name": "addresses",
+      "type": {
+        "type": "array",
+        "items": {
+          "type": "record",
+          "name": "Address",
+          "fields": [
+            {
+              "name": "street",
+              "type": "string"
+            },
+            {
+              "name": "street_number",
+              "type": "long"
+            }
+          ],
+          "doc": "An Address"
+        },
+        "name": "address"
+      }
+    },
+    {
+      "name": "mutation",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      }
+    }
+  ],
+  "doc": "User with multiple Address",
+  "namespace": "kdg.User.v1",
+  "aliases": [
+    "kdg.user-v1",
+    "kdg super user"
+  ]
+}

@@ -74,6 +74,7 @@ docs/_build/
 # PyBuilder
 target/
 data/
+consumer_output/
 
 # Jupyter Notebook
 .ipynb_checkpoints
