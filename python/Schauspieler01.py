@@ -22,7 +22,7 @@ class Haarfarbe(Enum):
 class Frisur(Enum):
     Glatze = "glatze"
     Irok = "irok"
-    Mili = "mili"
+    Mili = "mili"_
     Normal = "normal"
     Lang = "lang"
 
